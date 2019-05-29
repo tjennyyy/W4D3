@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Basic_A1 {
 
 
-    public static void Basic_A1(String[] args) {
+    public static void main(String[] args) {
 
         // Write a java Program to find the largest two numbers in a given array
         // (hint: try to use sorting in a smart way)
