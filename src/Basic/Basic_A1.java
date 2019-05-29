@@ -10,7 +10,7 @@ public class Basic_A1 {
         // Write a java Program to find the largest two numbers in a given array
         // (hint: try to use sorting in a smart way)
 
-        int allNum[] = {20, 30 ,40 ,50 ,60, 120};
+        int allNum[] = {20, 300 ,40 ,50 ,60, 120, 30};
         int firstN = 0;
         int secondN = 0;
 
@@ -18,7 +18,7 @@ public class Basic_A1 {
             if (firstN < allNum[i]){
                 secondN = firstN;
                 firstN = allNum[i];
-            } else if (secondN > allNum[i]){
+            } else if (secondN < allNum[i]){
                 secondN = allNum[i];
             }
         }
